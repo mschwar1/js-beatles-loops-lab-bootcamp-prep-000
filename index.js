@@ -16,4 +16,4 @@ function johnLennonFacts(facts) {
     i++
   }
   return excitingFacts
-} 
+}
