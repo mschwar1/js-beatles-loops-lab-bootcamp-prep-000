@@ -8,6 +8,7 @@ function theBeatlesPlay(musicians, instruments) {
     }
     return killingIt
 }
+
 function johnLennonFacts(facts) {
   var excitingFacts = []
   var i = 0
@@ -16,4 +17,11 @@ function johnLennonFacts(facts) {
     i++
   }
   return excitingFacts
+}
+function iLoveTheBeatles(n) {
+  var love = []
+  do {
+    love.push('I love the Beatles!');
+    n++
+  } while (n < 15);
 }
