@@ -6,4 +6,5 @@ function theBeatlesPlay(musicians, instruments) {
     for (var i = 0; i < 4; i++) {
       killingIt[i] = `${musicians[i]} + 'plays' + ${instruments[i]}`
     }
+    return killingIt
 }
